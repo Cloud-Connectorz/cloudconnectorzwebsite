@@ -1163,13 +1163,13 @@ fieldset[disabled] .btn-template-primary.active {
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  height: 30em;
+  height: 25em;
 }
 .banner-landing {
   position: relative;
   background: url('../img/bannerbg.jpg') center center repeat;
   background-size: cover;
-  height: 20em;
+  height: 15em;
 }
 .home-carousel .dark-mask {
   position: absolute;
