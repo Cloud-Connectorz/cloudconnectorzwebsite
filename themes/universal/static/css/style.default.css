@@ -1158,11 +1158,12 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel {
   position: relative;
-  background: url('../img/photogrid.jpg') center center repeat;
+  background: url('../img/carouselbg.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
+  height: 30em;
 }
 .home-carousel .dark-mask {
   position: absolute;
@@ -1171,7 +1172,7 @@ fieldset[disabled] .btn-template-primary.active {
   width: 100%;
   height: 100%;
   background: var(--primary-accent);
-  opacity: 0.9;
+  opacity: 0.3;
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
@@ -1190,6 +1191,7 @@ fieldset[disabled] .btn-template-primary.active {
 @media (max-width: 767px) {
   .home-carousel {
     text-align: center !important;
+    
   }
 }
 @media (min-width: 992px) {
@@ -1207,12 +1209,12 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel h1 {
   font-weight: 700;
   /* text-transform: uppercase; */
-  font-size: 46px;
+  font-size: 72px;
   letter-spacing: 0.08em;
 }
 @media (max-width: 991px) {
   .home-carousel h1 {
-    font-size: 36px;
+    font-size: 64px;
   }
 }
 .home-carousel h2 {
@@ -1445,10 +1447,43 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #4a7f45;
 }
 .box-simple {
-  text-align: center;
-  margin-bottom: 40px;
+  text-align: left;
+  padding: 7%;
+  margin-bottom: 10px;
+  background: #ededed;
+  height: 18em;
+  border-radius: 0px 0px 30px 30px;
 }
+.whatweoffer h1 {
+  
+}
+.whatweoffer h2 {
+  padding-left: 10%;
+}
+.dot {
+  height: 45px;
+  margin: auto;
+  width: 45px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.orange {
+  border: 10px solid #E94E24;
+}
+
+.dot.darkblue {
+  text-align: center;
+  background-color: #003854;
+}
+.centereditem {
+  margin: auto;
+  width: 0%;
+}
+
+
 .box-simple .icon {
+  text-align: center;
   color: var(--primary-accent);
   border-color: var(--primary-accent);
   -webkit-transition: all 0.2s ease-out;
@@ -1468,7 +1503,8 @@ fieldset[disabled] .btn-template-primary.active {
   color: #003854;
 }
 .box-simple p {
-  color: #999999;
+  color: #E94E24;
+  font-weight: bolder;
 }
 .box-simple:hover .icon {
   -webkit-transform: scale(1.1, 1.1);
@@ -1767,7 +1803,7 @@ fieldset[disabled] .btn-template-primary.active {
 .bar {
   position: relative;
   background: var(--primary-accent);
-  padding: 60px 0;
+  padding: 0px 0;
 }
 .bar.background-pentagon {
   background: url('../img/texture-bw.png') center center repeat;
