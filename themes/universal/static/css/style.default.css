@@ -1519,7 +1519,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 100px;
   margin: 0px;
   position: absolute;
-  left: 65%;
+  right: 200px;
   width: 100px;
   background-color: #003854;
   object-position: bottom left;
@@ -1529,7 +1529,7 @@ fieldset[disabled] .btn-template-primary.active {
   height: 100px;
   margin: 0px;
   position: absolute;
-  left: 85%;
+  right: 75px;
   width: 100px;
   border: 25px solid #E94E24;
   object-position: bottom left;
@@ -1552,10 +1552,10 @@ fieldset[disabled] .btn-template-primary.active {
 
 .landingpage-photo {
   position: absolute;
-  height: 320px;
-  width: 320px;
+  height: 30vw;
+  width: 30vw;
   right: 30px;
-  border: 20px solid #003854;
+  border: 2.5vw solid #003854;
   border-radius: 50%;
   background: url('../img/bannerbg.jpg') center center repeat;
   background-size: cover;
@@ -1563,16 +1563,16 @@ fieldset[disabled] .btn-template-primary.active {
 
 .contactlp {
   padding-top: 5%;
-  height: 450px;
+  height: 40vw;
 }
 
 #contactdot {
-  height: 60px;
+  height: 5vw;
+  width: 5vw;
   margin: 0px;
   position: absolute;
   top: 30%;
-  right: 35%;
-  width: 60px;
+  right: 35vw;
   border-radius: 50%;
   background-color: #E94E24;
   object-position: bottom left;
