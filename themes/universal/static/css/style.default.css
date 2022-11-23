@@ -1555,15 +1555,15 @@ fieldset[disabled] .btn-template-primary.active {
   height: 30vw;
   width: 30vw;
   right: 30px;
-  border: 2.5vw solid #003854;
+  border: 2.2vw solid #003854;
   border-radius: 50%;
-  background: url('../img/bannerbg.jpg') center center repeat;
+  background: url('../img/Jorryt-de-Vries600.jpg') center center repeat;
   background-size: cover;
 }
 
 .contactlp {
   padding-top: 5%;
-  height: 40vw;
+  height: 45vw;
 }
 
 #contactdot {
@@ -1572,7 +1572,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0px;
   position: absolute;
   top: 30%;
-  right: 35vw;
+  right: 37vw;
   border-radius: 50%;
   background-color: #E94E24;
   object-position: bottom left;
