@@ -1457,15 +1457,32 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 7%;
   margin-bottom: 10px;
   background: #ededed;
-  height: 18em;
+  height: 12em;
   border-radius: 0px 0px 30px 30px;
 }
+
+.box-simple-selected {
+
+}
+
+.features-items {
+  padding-right: 0.5%;
+  padding-left: 0.5%;
+}
+
 .whatweoffer h1 {
-  
+  color: #E94E24;
+  padding-left: 15%;
 }
 .whatweoffer h2 {
-  padding-left: 10%;
+  padding-left: 15%;
 }
+
+.about h1 {
+  color: #E94E24;
+}
+
+
 .dot {
   height: 45px;
   margin: auto;
@@ -1478,6 +1495,51 @@ fieldset[disabled] .btn-template-primary.active {
   border: 10px solid #E94E24;
 }
 
+#orangebullet {
+  height: 50px;
+  margin: 0px;
+  position: absolute;
+  left: 5%;
+  width: 50px;
+  border: 15px solid #E94E24;
+  object-position: bottom left;
+}
+
+#halfout {
+  height: 100px;
+  margin: 0px;
+  position: absolute;
+  left: -50px;
+  width: 100px;
+  border: 25px solid #E94E24;
+  object-position: bottom left;
+}
+
+#blueright {
+  height: 100px;
+  margin: 0px;
+  position: absolute;
+  left: 65%;
+  width: 100px;
+  background-color: #003854;
+  object-position: bottom left;
+}
+
+#orangeright {
+  height: 100px;
+  margin: 0px;
+  position: absolute;
+  left: 85%;
+  width: 100px;
+  border: 25px solid #E94E24;
+  object-position: bottom left;
+}
+
+.circles-sec {
+  padding-top: 3%;
+  height: 150px;
+}
+
 .dot.darkblue {
   text-align: center;
   background-color: #003854;
@@ -1485,8 +1547,36 @@ fieldset[disabled] .btn-template-primary.active {
 .centereditem {
   margin: auto;
   width: 10%;
+  padding-bottom: 40px;
 }
 
+.landingpage-photo {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  right: 30px;
+  border: 20px solid #003854;
+  border-radius: 50%;
+  background: url('../img/bannerbg.jpg') center center repeat;
+  background-size: cover;
+}
+
+.contactlp {
+  padding-top: 5%;
+  height: 450px;
+}
+
+#contactdot {
+  height: 60px;
+  margin: 0px;
+  position: absolute;
+  top: 30%;
+  right: 35%;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #E94E24;
+  object-position: bottom left;
+}
 
 .box-simple .icon {
   text-align: center;

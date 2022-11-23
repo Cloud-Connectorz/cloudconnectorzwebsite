@@ -3,7 +3,7 @@
 {{ if isset .Site.Data "features" }}
 {{ if gt (len .Site.Data.features) 0 }}
 <section class="bar background-white">
-    <div class="container">
+    <div class="container-fluid">
         {{ $elements := default 3 .Site.Params.features.cols }}
         {{ $features := sort .Site.Data.features "weight" }}
 
@@ -21,14 +21,14 @@
                 {{ if lt $feature_index (len $features) }}
                     {{ $element := index $features $feature_index }}
 
-                    <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }}">
+                    <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }} features-items">
                         <div class="box-simple">
                             {{ with $element.url }}
                             <a href="{{ $element.url }}">
                             {{ end }}
-                                <div class="icon">
+                                <!-- <div class="icon">
                                     <i class="{{ $element.icon }}"></i>
-                                </div>
+                                </div> -->
                             {{ with $element.url }}
                             </a>
                             {{ end }}
