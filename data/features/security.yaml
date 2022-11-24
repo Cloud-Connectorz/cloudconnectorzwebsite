@@ -1,0 +1,6 @@
+weight: 2
+name: "Security"
+icon: "fas fa-print"
+url: ""
+description: "It starts with awareness of the connection and its importance."
+information: "Automation has brought us a lot. Nowadays, when you check in your code, it automatically goes to production after a number of automatic checks and balances. Development is a collection of scripts, packages, tools and code. More often than not also from third parties which are updated automatically. But is this update always an upgrade? What if a vulnerability has sneaked into this package or code? How do you make sure this part is also secure?"

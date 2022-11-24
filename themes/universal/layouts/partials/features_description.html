@@ -1,0 +1,16 @@
+{{ if isset .Site.Params "features" }}
+{{ if .Site.Params.features.enable }}
+{{ if isset .Site.Data "features" }}
+{{ if gt (len .Site.Data.features) 0 }}
+<section class="bar background-white">
+    <div class="container">
+        <!-- Information Box for the Featured Item -->
+        <div>
+            <h3 id="infobox"></h3>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
