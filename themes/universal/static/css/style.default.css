@@ -1459,10 +1459,34 @@ fieldset[disabled] .btn-template-primary.active {
   background: #ededed;
   height: 12em;
   border-radius: 0px 0px 30px 30px;
+  cursor: pointer;
 }
 
-.box-simple-selected {
+.box-simple:hover {
+  background: #cccccc;
+}
 
+
+
+.box-simple-selected {
+  background: #cccccc;
+}
+
+.orange-selected {
+  visibility: hidden;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #E94E24;
+  height: 22px;
+  margin: auto;
+  width: 22px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.box-simple:hover > .orange-selected {
+  visibility: visible;
 }
 
 .features-items {
@@ -1537,7 +1561,7 @@ fieldset[disabled] .btn-template-primary.active {
 
 .circles-sec {
   padding-top: 3%;
-  height: 150px;
+  height: 23vh;
 }
 
 .dot.darkblue {
@@ -1577,6 +1601,34 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #E94E24;
   object-position: bottom left;
 }
+
+.socials {
+  height: 75px;
+}
+
+.socials-icons {
+  height: 100px;
+  position: absolute;
+  right: 10%;
+}
+
+.social-icon {
+  background-color: #E94E24;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 2.5em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 70px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+}
+
+
 
 .box-simple .icon {
   text-align: center;
@@ -2658,8 +2710,8 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #003854;
-  padding: 50px 0;
+  background: #fff;
+  padding: 10px 0;
   color: #999999;
 }
 #footer h1,
@@ -2754,14 +2806,17 @@ fieldset[disabled] .btn-template-primary.active {
   color: var(--primary-accent);
 }
 #copyright {
-  background: #333;
-  color: #ccc;
-  padding: 50px 0;
-  font-size: 12px;
-  line-height: 28px;
+  background: #fff;
+  color: #003854;
+  padding: 20px 0;
+  font-size: 1em;
+  font-weight: bolder;
+  line-height: 15px;
 }
 #copyright p {
-  margin: 0;
+  float: none !important;
+  margin: 10px;
+  text-align: center;
 }
 @media (max-width: 991px) {
   #copyright p {

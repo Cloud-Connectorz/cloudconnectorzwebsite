@@ -467,7 +467,7 @@ pluralizelisttitles = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     #about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2022, Cloud Connectorz; all rights reserved."
+    copyright = "© Cloud Connectorz 2022"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"

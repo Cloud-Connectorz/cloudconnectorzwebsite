@@ -23,6 +23,7 @@
 
                     <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }} features-items">
                         <div class="box-simple">
+                            <div class="orange-selected"></div>
                             {{ with $element.url }}
                             <a href="{{ $element.url }}">
                             {{ end }}
