@@ -1466,7 +1466,9 @@ fieldset[disabled] .btn-template-primary.active {
   background: #cccccc;
 }
 
-
+.features-info {
+  height: 150px;
+}
 
 .box-simple-selected {
   background: #cccccc;
@@ -1483,6 +1485,15 @@ fieldset[disabled] .btn-template-primary.active {
   width: 22px;
   border-radius: 50%;
   display: inline-block;
+}
+
+.readmore {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #003854 !important;
 }
 
 .box-simple:hover > .orange-selected {

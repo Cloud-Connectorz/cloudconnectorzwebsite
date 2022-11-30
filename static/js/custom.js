@@ -8,8 +8,16 @@ $(".box-simple").click(function () {
     .children(".orange-selected")
     .not($(this).find(".orange-selected"))
     .css("visibility", "hidden");
+  $(this).children(".readmore").css("visibility", "hidden");
+  $(".box-simple")
+    .children(".readmore")
+    .not($(this).find(".readmore"))
+    .css("visibility", "visible");
 });
 $(document).ready(function () {
+  $(".development").addClass("box-simple-selected");
+  $(".development").children(".orange-selected").css("visibility", "visible");
+  $(".development").children(".readmore").css("visibility", "hidden");
   $(".development").click(function () {
     $("#infobox")
       .text(

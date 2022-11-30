@@ -24,6 +24,7 @@
                     <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }} features-items">
                         <div class="box-simple {{ $element.name | markdownify | lower }}">
                             <div class="orange-selected"></div>
+                            <p class="readmore">learn more &#9660;</p>
                             {{ with $element.url }}
                             <a href="{{ $element.url }}">
                             {{ end }}
