@@ -22,7 +22,7 @@
                     {{ $element := index $features $feature_index }}
 
                     <div class="col-md-{{ div 12 $elements }} col-{{ $j }} col-{{ if eq (mod $j 2) 0 }}odd{{ else }}even{{ end }} features-items">
-                        <div class="box-simple" onclick="updateTextBoxdevelopment()">
+                        <div class="box-simple {{ $element.name | markdownify | lower }}">
                             <div class="orange-selected"></div>
                             {{ with $element.url }}
                             <a href="{{ $element.url }}">
@@ -35,7 +35,6 @@
                             {{ end }}
                             <h3>{{ $element.name | markdownify }}</h3>
                             <p>{{ $element.description | markdownify }}</p>
-                            <p id="{{ $element.name | markdownify | lower }}-info" style="visibility: hidden;">{{ $element.information | markdownify }}</p>
                         </div>
                     </div>
                 {{ end }}

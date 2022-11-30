@@ -1489,6 +1489,10 @@ fieldset[disabled] .btn-template-primary.active {
   visibility: visible;
 }
 
+.orange-selected-visible {
+  visibility: visible;
+}
+
 .features-items {
   padding-right: 0.5%;
   padding-left: 0.5%;
@@ -1497,9 +1501,11 @@ fieldset[disabled] .btn-template-primary.active {
 .whatweoffer h1 {
   color: #E94E24;
   padding-left: 15%;
+  font-weight: 900;
 }
 .whatweoffer h2 {
   padding-left: 15%;
+  font-weight: 500;
 }
 
 .about h1 {
