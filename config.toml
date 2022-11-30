@@ -337,25 +337,25 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "Services"
     identifier = "menu.whatweoffer"
-    url        = "/blog/"
+    url        = "#services"
     weight     = 1
 
 [[menu.main]]
     name       = "Careers"
     identifier = "menu.careers"
-    url        = "/blog/"
+    url        = "#careers"
     weight     = 2
 
 [[menu.main]]
     name       = "About"
     identifier = "menu.about"
-    url        = "/blog/"
+    url        = "#about-me"
     weight     = 3
 
 [[menu.main]]
     name       = "Contact"
     identifier = "menu.contact"
-    url        = "/blog/"
+    url        = "#contact-us"
     weight     = 4
 
 

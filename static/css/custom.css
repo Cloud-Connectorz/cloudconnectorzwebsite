@@ -1,14 +1,22 @@
 /* your styles go here */
 /* Example site test */
 
+html {
+  scroll-behavior: smooth;
+}
+
+#services {
+  height: 75px;
+}
+
 .box-image-text .image {
-    min-height: 190px;
-    max-height: 190px;
+  min-height: 190px;
+  max-height: 190px;
 }
 
 .box-image-text .image img {
-    max-height: 190px;
-    margin: auto;
+  max-height: 190px;
+  margin: auto;
 }
 
 /* .box-simple {
