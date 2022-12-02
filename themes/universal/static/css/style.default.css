@@ -1161,34 +1161,55 @@ fieldset[disabled] .btn-template-primary.active {
   position: relative;
   background: url('../img/carouselbg.jpg') center center repeat;
   background-size: cover;
-  background-position: 0em 0em, center;
+  background-position: 0em -10em, center;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  height: 650px;
+  height: 450px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 567px) {
   .home-carousel {
-    background-position: -39.5em 0em, center;
+    background-position: -22em 0em, center;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 568px) {
+  .home-carousel {
+    background-position: -12.5em 0em, center;
   }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
   .home-carousel {
-    background-position: -25em 0em, center;
+    background-position: 0em 0em, center;
   }
 }
 
-@media (max-width: 1999px) and (min-width: 1600px) {
+@media (max-width: 1300px) and (min-width: 993px) {
   .home-carousel {
-    background-position: 0em -5vw, center;
+    background-position: 0em 0em, center;
   }
 }
 
-@media (min-width: 2000px) {
+
+@media (max-width: 1429px) and (min-width: 1301px) {
   .home-carousel {
-    background-position: 0em -14vw, center;
+    background-position: 0em -10em, center;
+  }
+}
+
+@media (max-width: 1970px) and (min-width: 1430px) {
+  .home-carousel {
+    background-position: 0em -13em, center;
+  }
+}
+
+
+
+@media (min-width: 1971px) {
+  .home-carousel {
+    background-position: 0em -22vw, center;
   }
 }
 
@@ -1512,6 +1533,7 @@ a {
   color: #003854;
   font-weight: normal;
   font-size: 20px;
+  line-height: 30px;
 }
 
 .features-info {
@@ -1575,6 +1597,10 @@ a {
   color: #E94E24;
   padding-left: 15%;
   font-weight: 900;
+}
+
+.whatweoffer p {
+  line-height: 30px;
 }
 
 .whatweoffer-desc {
