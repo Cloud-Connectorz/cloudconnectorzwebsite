@@ -317,7 +317,8 @@ ul.list-style-none {
 .navbar ul.nav > li > a {
   /* text-transform: uppercase; */
   /* text-decoration: underline; */
-  font-weight: normal;
+  font-size: 20px;
+  font-weight: 400;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
 }
@@ -1160,17 +1161,54 @@ fieldset[disabled] .btn-template-primary.active {
   position: relative;
   background: url('../img/carouselbg.jpg') center center repeat;
   background-size: cover;
+  background-position: 0em 0em, center;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  height: 25em;
+  height: 650px;
 }
+
+@media (max-width: 767px) {
+  .home-carousel {
+    background-position: -39.5em 0em, center;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .home-carousel {
+    background-position: -25em 0em, center;
+  }
+}
+
+@media (max-width: 1999px) and (min-width: 1600px) {
+  .home-carousel {
+    background-position: 0em -5vw, center;
+  }
+}
+
+@media (min-width: 2000px) {
+  .home-carousel {
+    background-position: 0em -14vw, center;
+  }
+}
+
 .banner-landing {
   position: relative;
   background: url('../img/bannerbg.jpg') center center repeat;
   background-size: cover;
-  height: 15em;
+  height: 25em;
 }
+
+a {
+  display: inline-block;
+}
+
+@media (max-width: 767px) {
+  .banner-landing {
+    height: 15em;
+  }
+}
+
 .home-carousel .dark-mask {
   position: absolute;
   top: 0;
@@ -1454,19 +1492,30 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-simple {
   text-align: left;
-  padding: 7%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
   margin-bottom: 10px;
   background: #ededed;
-  height: 12em;
+  height: 9em;
   border-radius: 0px 0px 30px 30px;
   cursor: pointer;
 }
+
+
 
 .box-simple:hover {
   background: #cccccc;
 }
 
+#infobox {
+  color: #003854;
+  font-weight: normal;
+  font-size: 20px;
+}
+
 .features-info {
+
   margin-bottom: 10px;
 }
 
@@ -1490,8 +1539,8 @@ fieldset[disabled] .btn-template-primary.active {
 
 .readmore {
   position: absolute;
-  bottom: 10px;
-  left: 50px;
+  bottom: 5%;
+  padding-left: 1px;
   font-size: 11px;
   text-transform: uppercase;
   color: #003854 !important;
@@ -1510,14 +1559,41 @@ fieldset[disabled] .btn-template-primary.active {
   padding-left: 0.5%;
 }
 
+.whatweoffer-box {
+  position: absolute;
+  top: -80px;
+}
+
+.whatweoffer {
+  position: relative;
+}
+
 .whatweoffer h1 {
+  left: 80px;
+  top: -15px;
+  position: absolute;
   color: #E94E24;
   padding-left: 15%;
   font-weight: 900;
 }
+
+.whatweoffer-desc {
+  font-size: 20px;
+}
+
 .whatweoffer h2 {
   padding-left: 15%;
   font-weight: 500;
+}
+
+#orangebullet {
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  position: relative;
+  position: absolute;
+  border: 15px solid #E94E24;
+  object-position: bottom left;
 }
 
 .about h1 {
@@ -1537,15 +1613,8 @@ fieldset[disabled] .btn-template-primary.active {
   border: 10px solid #E94E24;
 }
 
-#orangebullet {
-  height: 50px;
-  margin: 0px;
-  position: absolute;
-  left: 5%;
-  width: 50px;
-  border: 15px solid #E94E24;
-  object-position: bottom left;
-}
+
+
 
 #halfout {
   height: 100px;
@@ -1657,13 +1726,14 @@ fieldset[disabled] .btn-template-primary.active {
   transition: all 0.2s ease-out;
 }
 .box-simple h3 {
+  margin: 0;
   font-weight: normal;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   line-height: 1.5;
   color: #003854;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
 }
 .box-simple h3 a {
   color: #003854;
