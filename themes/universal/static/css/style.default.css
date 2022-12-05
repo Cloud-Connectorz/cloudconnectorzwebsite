@@ -1699,29 +1699,51 @@ a {
 .landingpage-photo {
   position: absolute;
   height: 30vw;
+  max-height: 450px;
   width: 30vw;
+  max-width: 450px;
   right: 30px;
-  border: 2.2vw solid #003854;
+  border: 23px solid #003854;
   border-radius: 50%;
   background: url('../img/Jorryt-de-Vries600.jpg') center center repeat;
   background-size: cover;
 }
 
+@media (max-width: 991px) {
+  .landingpage-photo {
+    border-width: 2.2vw;
+  }
+}
+
 .contactlp {
+  position: relative;
   padding-top: 5%;
-  height: 45vw;
+  height: 45.5vw;
+  margin-bottom: 8%;
+}
+.contactlp-image {
+  position: absolute;
+  right: 0;
 }
 
 #contactdot {
   height: 5vw;
+  max-height: 80px;
   width: 5vw;
+  max-width: 80px;
   margin: 0px;
   position: absolute;
-  top: 30%;
-  right: 37vw;
+  top: 20px;
+  right: 500px;
   border-radius: 50%;
   background-color: #E94E24;
   object-position: bottom left;
+}
+
+@media (max-width: 991px) {
+  #contactdot {
+    right: 40vw;
+  }
 }
 
 .socials {
@@ -1774,6 +1796,7 @@ a {
   color: #003854;
 }
 .box-simple p {
+  line-height: 1.25;
   color: #E94E24;
   font-weight: bolder;
 }
@@ -3711,8 +3734,8 @@ h3,
   margin-bottom: 20px;
 }
 p {
-  margin: 0 0 10px;
-  line-height: 32px;
+
+  line-height: 34px;
 }
 
 li {
