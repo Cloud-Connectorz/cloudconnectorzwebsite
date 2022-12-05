@@ -1718,13 +1718,13 @@ a {
 .contactlp {
   position: relative;
   padding-top: 5%;
-  margin-bottom: 8%;
+  margin-bottom: 5%;
   height: 400px;
 }
 
 @media (max-width: 991px) {
   .contactlp {
-    height: 45vw;
+    height: 55vw;
   }
 }
 
