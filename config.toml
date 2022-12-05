@@ -21,7 +21,7 @@ pluralizelisttitles = false
 [menu]
 
 
-# Main menu
+# Main menu 
 # [[menu.main]]
 #     name       = "Home"
 #     identifier = "menu.home"
