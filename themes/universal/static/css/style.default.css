@@ -1277,11 +1277,20 @@ a {
   font-size: 72px;
   letter-spacing: 0.08em;
 }
-@media (max-width: 991px) {
+
+@media (max-width: 449px) {
+  .home-carousel h1 {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 991px) {
   .home-carousel h1 {
     font-size: 64px;
   }
 }
+
+
 .home-carousel h2 {
   font-weight: 700;
   text-transform: uppercase;
