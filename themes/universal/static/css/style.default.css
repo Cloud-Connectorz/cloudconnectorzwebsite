@@ -1609,6 +1609,7 @@ a {
 
 .whatweoffer h2 {
   font-weight: 500;
+  line-height: 46px;
 }
 
 #orangebullet {
@@ -3702,7 +3703,13 @@ h3,
 }
 p {
   margin: 0 0 10px;
+  line-height: 30px;
 }
+
+li {
+  line-height: 30px;
+}
+
 .lead {
   margin-bottom: 20px;
   font-size: 18px;
