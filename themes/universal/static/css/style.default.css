@@ -1278,6 +1278,18 @@ a {
   letter-spacing: 0.08em;
 }
 
+@media (max-width: 345px) {
+  .home-carousel h1 {
+    letter-spacing: 0;
+  }
+}
+
+@media (min-width: 346px) and (max-width: 449px) {
+  .home-carousel h1 {
+    font-size: 48px;
+  }
+}
+
 @media (max-width: 449px) {
   .home-carousel h1 {
     font-size: 48px;
@@ -1345,6 +1357,12 @@ a {
   box-shadow: 0 0 1em rgb(0 0 0 / .3);
 }
 
+@media (max-width: 570px) {
+  .team-modal {
+    max-width: 100vw;
+  }
+}
+
 .team-modal::backdrop {
   background: rgb(0 0 0 / 0.4);
 }
@@ -1369,9 +1387,68 @@ a {
 #team-modal-select header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
+
+#modal-header {
+  margin: 0 3rem;
+  justify-self: right;
+}
+
 /* Modal Def End */
+
+/* Modal Headshot */
+
+.team-member-headshot-modal {
+  align-self: center;
+  justify-self: end;
+  margin-bottom: 20px;
+}
+
+.team-member-headshot-modal img {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+}
+
+.team-member-headshot-modal::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  font-size: 300px;
+  border: solid #003854 5px;
+  transition: border-color 0.3s ease;
+}
+/* Modal Headshot end */
+
+/* Modal Circles */
+#blueright-modal, #orangeright-modal {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+#blueright-modal {
+  margin-left: auto;  /* Justifies the Circles to right side */
+  background-color: #003854;
+}
+#orangeright-modal {
+  margin-left: 20px;
+  border: 15px solid #E94E24;
+}
+
+@media (max-width: 570px) {
+  #blueright-modal, #orangeright-modal {
+    display: none;
+  }
+  .modal-close-button {
+    margin-left: auto;
+  }
+}
+/* Modal Circles End */
+
 
 .customers .item img:hover {
   max-width: auto;
@@ -1687,8 +1764,6 @@ a {
 }
 
 
-
-
 #halfout {
   height: 100px;
   margin: 0px;
@@ -1719,9 +1794,29 @@ a {
   object-position: bottom left;
 }
 
+@media (max-width: 570px) {
+  .circles-sec {
+    height: 100px;
+  }
+  #halfout, #orangeright, #blueright {
+    height: 85px;
+    width: 85px;
+  }
+  #halfout, #orangeright {
+    border-width: 22px;
+  }
+  #blueright {
+    right: 135px;
+  }
+  #orangeright {
+    right: 10px;
+  }
+}
+
+
 .circles-sec {
-  padding-top: 3%;
-  height: 23vh;
+  margin-top: 3%;
+  height: 100px;
 }
 
 .dot.darkblue {
@@ -1777,10 +1872,6 @@ a {
   cursor: pointer;
 }
 
-.team-member-image {
-
-}
-
 
 
 .team-member-headshot::after {
@@ -1801,15 +1892,6 @@ a {
   border-color: #E94E24;
 }
 
-
-
-.team-member-square img {
-  align-self: center;
-  height: 250px;
-  width: 250px;
-  border: solid #003854 10px;
-  border-radius: 15%;
-}
 
 
 
@@ -1867,6 +1949,8 @@ a {
   right: 10%;
 }
 
+
+
 .social-icon {
   background-color: #E94E24;
   height: 70px;
@@ -1883,6 +1967,14 @@ a {
   cursor: pointer;
 }
 
+@media (max-width: 375px) {
+  .social-icon {
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    font-size: 1.5em;
+  }
+}
 
 
 .box-simple .icon {
