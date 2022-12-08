@@ -40,3 +40,26 @@ $(document).ready(function () {
       .show();
   });
 });
+
+// Modal Logic
+const modal = document.querySelector("#team-modal-select");
+
+// Open Modal by User
+$("#jorryt").click(function () {
+  $("#modal-header").text("About Jorryt");
+  $("#modal-article").html(
+    "<p>Hi, my name is Jorryt de Vries. Founder and co-owner of Cloud Connectorz. I have been working in IT for over 20+ years. I had roles from developer to consultant, project management, coaching, etc. I am result-oriented, pragmatic, analytical and always looking for solutions.</p><p>Over the years it became clear to me that I am always looking for connections. Be it personal or business, this is what drives me and what I am looking for. Connection is also the key in IT and it is from that conviction that I started Cloud Connectorz.</p>"
+  );
+  modal.showModal();
+});
+$("#ardavan").click(function () {
+  $("#modal-header").text("About Ardavan");
+  $("#modal-article").html(
+    "<p>I am a dedicated Cloud Engineer with background in DevOps Engineering and System Administration. For me, collaboration is key and I am a firm believer in automating everything. I have a passion for learning new things and spend my free time to read more and keep myself updated.</p> <p>I have been an active member of the GNU/Linux and Open Source community since 2010, both in online and local user groups and have helped with planning and organization of events. My hobbies include painting and playing Warhammer 40K miniatures, video games and reading books on technologies related to my field of expertise. </p>"
+  );
+  modal.showModal();
+});
+
+$(".modal-close-button").click(function () {
+  modal.close();
+});

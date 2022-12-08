@@ -554,6 +554,9 @@ pluralizelisttitles = false
 [params.contactlp]
     enable = true
 
+[params.team]
+    enable = true
+
 [params.testimonials]
     enable = false
     # All testimonials are defined in their own files. You can find example items

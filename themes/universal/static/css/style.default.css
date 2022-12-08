@@ -1335,6 +1335,44 @@ a {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+
+/* Modal Def Start */
+.team-modal {
+  padding: 1em;
+  max-width: 60ch;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 1em rgb(0 0 0 / .3);
+}
+
+.team-modal::backdrop {
+  background: rgb(0 0 0 / 0.4);
+}
+
+/* Modal Close Button */
+.modal-close-button {
+  outline: none;
+  align-self: flex-start;
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.modal-close-button:hover {
+  color: #E94E24;
+}
+
+
+#team-modal-select header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Modal Def End */
+
 .customers .item img:hover {
   max-width: auto;
   filter: none;
@@ -1708,6 +1746,72 @@ a {
   background: url('../img/Jorryt-de-Vries600.jpg') center center repeat;
   background-size: cover;
 }
+
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 30px;
+}
+
+
+.team-member p {
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+.team-member-headshot {
+  position: relative;
+  
+}
+
+.team-member-headshot img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.team-member-headshot:hover {
+  cursor: pointer;
+}
+
+.team-member-image {
+
+}
+
+
+
+.team-member-headshot::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  font-size: 300px;
+  border: solid #003854 10px;
+  transition: border-color 0.3s ease;
+}
+
+
+.team-member-headshot:hover::after {
+  border-color: #E94E24;
+}
+
+
+
+.team-member-square img {
+  align-self: center;
+  height: 250px;
+  width: 250px;
+  border: solid #003854 10px;
+  border-radius: 15%;
+}
+
+
 
 @media (max-width: 991px) {
   .landingpage-photo {
