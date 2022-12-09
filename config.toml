@@ -352,16 +352,22 @@ pluralizelisttitles = false
     weight     = 3
 
 [[menu.main]]
+    name       = "Team"
+    identifier = "menu.team"
+    url        = "#team"
+    weight     = 4
+
+[[menu.main]]
     name       = "About"
     identifier = "menu.about"
-    url        = "#about-me"
-    weight     = 4
+    url        = "#about-us"
+    weight     = 5
 
 [[menu.main]]
     name       = "Contact"
     identifier = "menu.contact"
     url        = "#contact-us"
-    weight     = 5
+    weight     = 6
 
 
 # [[menu.main]]

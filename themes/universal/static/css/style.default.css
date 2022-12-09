@@ -322,6 +322,14 @@ ul.list-style-none {
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
 }
+
+@media (max-width: 1100px) and (min-width: 768px) {
+  .navbar ul.nav > li > a {
+    font-size: 18px;
+    letter-spacing: 0.06em;
+  }
+}
+
 .navbar ul.nav > li > a:hover {
   border-top: solid 5px var(--primary-accent);
 }
@@ -1978,7 +1986,7 @@ a {
 
 
 /* Links Scrolling */
-#services,#careers, #about-me, #contact-us {
+#services,#careers, #team, #about-us, #contact-us {
   scroll-margin: 100px;
 }
 /* Links Scrolling End */
