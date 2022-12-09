@@ -1,3 +1,4 @@
+// Handle Boxes
 $(".box-simple").click(function () {
   $(".box-simple.box-simple-selected")
     .not(this)

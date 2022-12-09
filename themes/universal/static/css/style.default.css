@@ -1977,6 +1977,12 @@ a {
 }
 
 
+/* Links Scrolling */
+#services,#careers, #about-me, #contact-us {
+  scroll-margin: 100px;
+}
+/* Links Scrolling End */
+
 .box-simple .icon {
   text-align: center;
   color: var(--primary-accent);
