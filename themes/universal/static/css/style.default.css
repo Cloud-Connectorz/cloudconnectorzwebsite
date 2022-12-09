@@ -3487,6 +3487,16 @@ a {
     margin-left: -15px;
   }
 }
+/* Fix items covering home nav */
+#navigation {
+  float: right;
+}
+@media screen and (max-width: 768px) {
+  #navigation {
+    float: unset;
+  }
+}
+/* Fix items covering home nav end */
 .navbar-toggle {
   position: relative;
   float: right;
