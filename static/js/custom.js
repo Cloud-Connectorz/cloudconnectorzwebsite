@@ -69,7 +69,7 @@ $("#bas").click(function () {
   $("#modal-header").text("About Bas");
   $("#team-member-photo").attr("src", "img/Bas-Tichelaar-600.png");
   $("#modal-article").html(
-    "<p>After joining Skyworkz as a Managing Director, Bas saw an opportunity to build a new company focused on the connection. Besides managing Skyworkz, Bas is an advisor to Cloud Connectorz. He helps Jorryt behind the scenes to run the company.</p><p>But Bas will always be a techie at heart. He has a solid knowledge of Cloud and DevOps, and is always in for a good technical discussion.</p><p>In his spare time he likes to spend time with his wife and 2 boys, he loves skiing and traveling, and he is an occasional sporter (road cycling and mountain biking in the summer, ice skating in the winter).</p>"
+    "<p>After joining Skyworkz as a Managing Director, Bas saw an opportunity to build a new company focused on the connection. Besides managing Skyworkz, Bas is an advisor to Cloud Connectorz. He helps Jorryt behind the scenes to run the company.</p><p>Bas will always be a techie at heart. He has a solid knowledge of Cloud and DevOps, and is always in for a good technical discussion.</p><p>In his spare time he likes to spend time with his wife and 2 boys, he loves skiing and traveling, and he is an occasional sporter (road cycling and mountain biking in the summer, ice skating in the winter).</p>"
   );
   modal.showModal();
 });
