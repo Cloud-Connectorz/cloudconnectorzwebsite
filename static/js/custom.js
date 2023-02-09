@@ -73,6 +73,30 @@ $("#bas").click(function () {
   );
   modal.showModal();
 });
+$("#yunus").click(function () {
+  $("#modal-header").text("About Yunus");
+  $("#team-member-photo").attr("src", "img/Yunus-Kilic-800.jpg");
+  $("#modal-article").html(
+    "<p>I have 9 years of professional experience in software engineering, cloud-native development, and DevOps. Also, I am a firm believer in the power of open-source technologies and love to build solutions leveraging cloud-native tools and technologies. Also, creative problem-solver who is always looking for new ways to optimize existing solutions. I have a great eye for detail and take pride in delivering high-quality work. I am a team player who can work independently and collaboratively with others. I like to stay up to date with the latest cloud-native technologies and best practices. My hobbies include hiking, playing video games, tennis and Formula 1.</p>"
+  );
+  modal.showModal();
+});
+$("#desmond").click(function () {
+  $("#modal-header").text("About Desmond");
+  $("#team-member-photo").attr("src", "img/Desmond-Rouwhorst-800.jpg");
+  $("#modal-article").html(
+    "<p>Hi I'm Desmond and I'm a Senior Lead Software Developer at Cloud Connectorz. I've been in the business for 20 years, where I initially focused on back-end development, but in recent years I've expanded my knowledge in the field of front-end and Azure. The combination of front-end, back-end, Azure and Lead is the golden circle for me, the combination that I enjoy doing the most. Developing nice software and coaching and guiding people. I love to deliver beautiful products together with a team, to let the individuals or the entire team grow and thus help a company grow further.In my free time I like to do fun things with my wife and son. We love to go out with family and friends, to enjoy good food and drinks, but we are certainly not averse to a party here and there to go dancing.</p>"
+  );
+  modal.showModal();
+});
+$("#dexter").click(function () {
+  $("#modal-header").text("About Dexter");
+  $("#team-member-photo").attr("src", "img/Dexter-Ajoku-800.jpg");
+  $("#modal-article").html(
+    "<p>I'm an experienced .NET software engineer with many years of experience building mission-critical services in cloud environments within distributed teams. My professional interests are in cloud-native architectures, high-performance applications and service observability. </p>"
+  );
+  modal.showModal();
+});
 
 // Close Modal
 $(".modal-close-button").click(function () {
